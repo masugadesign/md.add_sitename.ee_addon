@@ -19,6 +19,7 @@ h2. Changelog
 
 * Removed the old school update checking that wasn’t working anyway. Should help eliminate errors on the control panel homepage.
 * Changed name to MD Add Sitename
+* Moved main files to GitHub (no updates to files themselves)
 
 Version 1.2 (May 26 2008) _172 downloads_
 
