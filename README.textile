@@ -1,0 +1,61 @@
+h1. MD Add Sitename
+
+Add a sitename to the ExpressionEngine Control Panel header
+
+h2. Info
+
+Developed by Ryan Masuga, http://masugadesign.com
+
+Docs: "MD Add Sitename":http://www.masugadesign.com/the-lab/scripts/md-add-sitename/ <br />
+EE Extension Info: http://expressionengine.com/docs/development/extensions.html
+
+This does not currently work on an MSM-enabled sites when you're using the text override. The text override will override all of your site names.
+
+Also see the "original forum thread at the EE Forums":http://expressionengine.com/forums/viewthread/54996/.
+
+h2. Changelog
+
+*Version 1.2.2 (Jan 12 2009)*
+
+* Removed the old school update checking that wasn’t working anyway. Should help eliminate errors on the control panel homepage.
+* Changed name to MD Add Sitename
+
+Version 1.2 (May 26 2008) _172 downloads_
+
+* Fixed a bug where styles could be rendered in head more than once
+* Added documentation URL
+* Added version checking (Thanks Leevi Graham)
+* Fixed a default settings problem
+* Added a check to see if Extension info is in session or cache to keep things speedy (again, thanks, Leevi.)
+
+Version 1.1.5 (Mar 21 2008) _18 downloads_
+
+* Updated to account for sites using .png instead of .ico for the favicon. Good to know Add Sitename will no longer be needed in 2.0 – but not everyone is going to update immediately, so there is still a need!
+
+Version 1.1.4 (Nov 18 2007) _111 downloads_
+
+* Changed $siteurl variable. Favicon path seemed to be not working in certain cases. Let me know if it’s not working for you.
+
+Version 1.1.3 (Sep 15 2007) _59 downloads_
+
+* Added the ability to make the text italic. (Thanks Hambo)
+
+Version 1.1.2 (Jul 15 2007) _111 downloads_
+
+* Added the ability to show a site’s favicon next to the text.
+
+Version 1.1.1 (Jul 13 2007)
+
+* Added setting for overriding the default site name. You can make the text say whatever you want. Might be handy to designate "development" sites, shorten a real long name, play a prank, or whatever you like.
+
+Version 1.1.0 (Jul 08 2007)
+
+* Added settings for font-size, making the site name a link to your site’s homepage, color, font-weight, font-family, and padding on the top and the bottom (in case changing the size of the text messes the layout up at all).
+
+Version 1.0.2 (Jul 06 2007)
+
+* Added 'stripslashes' for site names with apostrophes.
+
+Version 1.0.1 (Jun 25 2007)
+
+* Initial Release
