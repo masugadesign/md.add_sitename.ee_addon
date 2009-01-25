@@ -2,10 +2,6 @@
 /* ===========================================================================
 ext.md_add_sitename.php ---------------------------
 Add name of current site to the CP header.
-            
-INFO ---------------------------
-Extension Version: 1.2.2
-
 Related Thread: http://expressionengine.com/forums/viewthread/54996/
 =============================================================================== */
 $L = array(
